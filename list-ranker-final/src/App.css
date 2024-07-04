@@ -1,0 +1,20 @@
+div {
+    text-align: center;
+}
+
+.main {
+    margin-bottom: 40px;
+}
+
+ol {
+    text-align: left;
+}
+
+nav .nav-wrapper {
+    background-color: #f3e5f5 !important;
+}
+
+i {
+    margin-right: 20px;
+    color: black;
+}
