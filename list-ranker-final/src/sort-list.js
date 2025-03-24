@@ -36,8 +36,8 @@ export default class SortList extends React.Component {
     
 	checkIfDisplay(alist) {
 		if (alist.length <= 0) {
-            console.log("sorted" + sorted);
-            this.state.listToSort = sorted;
+            console.log("sorted!!" + sorted);
+            this.state.listToSort.push(...sorted);
             //this.setState({ listToSort: sorted });
             console.log("list to display" + this.state.listToSort);
 			this.props.displayFinal();
