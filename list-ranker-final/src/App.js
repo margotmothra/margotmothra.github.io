@@ -132,6 +132,9 @@ export default class App extends React.Component {
 
 	startOver() {
 		this.setState({ mode: 'isBuilding' });
+		this.state.todos.length = 0;
+		this.state.listToSort.length = 0;
+		window.location.reload(true);
 	}
 
 	displayFinal() {
